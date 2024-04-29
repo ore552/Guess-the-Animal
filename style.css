@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #000000;
+}
+
+
+h1{
+    font-size: 3.7rem;
+    margin: 10px;
+    color: aliceblue;
+}
+
+
+.app-content{
+    padding: 1%;
+    text-align: center;
+    max-width: 100%;
+    max-width: 700px;
+    border-radius: 3%;
+    border: 3px solid navy;
+    background-color: black;
+    box-shadow: 4px 8px 0px 4px  dodgerblue;
+    height: 900px;
+}
+
+.cont-div{
+    border: 3px solid navy;
+    background-color: black;
+    box-shadow: 4px 8px 0px 4px  dodgerblue;
+    border-radius: 3%;
+    height: 450px;
+    width: 400px;
+}
+
+.input-div{
+    margin: 6% auto;
+}
+
+input{
+    padding: 0.525%;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 3px solid navy;
+    box-shadow: 2px 4px 0px 2px  dodgerblue;
+}
+
+.btn{
+    padding: 1%;
+    font-size: 26px;
+    border: none;
+    box-shadow: none;
+    margin: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: aliceblue;
+}
+
+.animal-img{
+    width: 400px;
+    height: 30vh;
+    border-radius: 10px;
+    border:1% solid transparent;
+    margin-top: 5%;
+    border: navy solid 3px;
+    border-radius: 13px;
+    box-shadow: 2px 4px 0px 2px  dodgerblue;
+}
+
+.remark-container{
+    display: flex;
+    justify-content: center;
+}
+
+.result-container{
+    display: flex;
+    justify-content: center;
+}
+
+.result{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.remark{
+    background-color: #00ff2f;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: whitesmoke;
+    /* display: none; */
+}
+
+.animal-name{
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.scoreboard{
+    border: 3px solid navy;
+    background-color: black;
+    box-shadow: 4px 8px 0px 4px  dodgerblue;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    width: 150px;
+}
+
+.score-count{
+    color: white;
+}
+
+.det{
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.white{
+    color: white;
+    font-weight: 800;
+    padding: 2px;
+    font-size: 20px;
+}

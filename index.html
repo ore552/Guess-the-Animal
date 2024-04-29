@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Animal</title>
+</head>
+<body>
+    <div class="container hard-game">
+        <div class="app-content">
+            <div class="scoreboard">
+                <p class="score-count">Score: <span class="score">2</span> / <span class="count">5</span></p>
+            </div>
+
+            
+            <div class="img-div">
+                <img src="./images/Lion.jpg" alt="starter" class="animal-img">
+                <p class="white">Hard Level</p>
+            </div>
+
+            <div class="cont-div">
+                <h1>Guess the Animal</h1>
+                <details class="det"><p>*Please guess the animal with a capital letter and must be singular not plural.</p></details>
+                <div class="input-div">
+                    <input type="text" id="guessed-animal">
+                    <button class="btn">Guess</button>
+                </div>
+                <div class="remark-container">
+                    <div class="remark">
+                        <p class="remark-stm">Wow! You guessed right!<p>                
+                    </div>
+                </div>
+    
+                <div class="result-container">
+                    <div class="result">
+                        <p>The animal I was thinking of is... a  <span class="animal-name">Lion</span></p>
+                    </div>
+                </div>
+    
+                <div class="change-game">
+                    <button class="btn"><a href="./index2.html">Switch to Easy</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container easy-game">
+        <div class="app-content">
+            <div class="scoreboard">
+                <p class="score-count">Score: <span class="score">2</span> / <span class="count">5</span></p>
+            </div>
+
+            
+            <div class="img-div">
+                <img src="./images/Lion.jpg" alt="starter" class="animal-img">
+            </div>
+
+            <div class="cont-div">
+                <h1>Guess the Animal</h1>
+                <details class="det"><p>*Please guess the animal with a capital letter and must be singular not plural.</p></details>
+                <div class="input-div">
+                    <input type="text" id="guessed-animal">
+                    <button class="btn">Guess</button>
+                </div>
+                <div class="remark-container">
+                    <div class="remark remark2">
+                        <p class="remark-stm">Wow! You guessed right!<p>                
+                    </div>
+                </div>
+    
+                <div class="result-container">
+                    <div class="result">
+                        <p>The animal I was thinking of is... a<span class="animal-name"> Lion</span></p>
+                    </div>
+                </div>
+    
+                <div class="change-game">
+                    <button class="btn hard">Switch to Hard</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
