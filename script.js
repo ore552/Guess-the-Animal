@@ -100,7 +100,7 @@
             remark.style.color = "white";
             clear();
             };
-            animalImg.src = "images/"+animals[indexNumber]+".jpg";
+            animalImg.src = animals[indexNumber]+".jpg";
         }
 
     });
